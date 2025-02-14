@@ -16,7 +16,7 @@ class posController extends Controller
     public function index()
     {
         try {
-            $foods = Food::all();
+            $foods = Food::where('status', 1)->get();
             $customers = Customer::all();
             return view('pos.index', compact('foods', 'customers'));
         } catch (\Throwable $th) {

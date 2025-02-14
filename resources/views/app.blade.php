@@ -27,7 +27,7 @@
         <nav class="bg-white mb-4 border-b border-gray-200" role="navigation">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="https://flowbite.com/" class="flex items-center space-x-3">
-                    <img src="{{ asset('/storage/img/javanese-kitchen.png') }}" class="h-8 rounded-md"
+                    <img src="{{ asset('/storage/img/javanese-kitchen.png') }}" class="h-20 rounded-md"
                         alt="Flowbite Logo">
                 </a>
 
@@ -65,7 +65,7 @@
                         </li>
                         <li>
                             <a href="{{ route('foods.index') }}"
-                                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-200 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Foods</a>
+                                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-200 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 @yield('active3')">Foods</a>
                         </li>
 
                     </ul>
