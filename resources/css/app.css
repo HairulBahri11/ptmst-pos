@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f5f6f8;
+    font-size: 13px;
+    font-family: "Roboto", serif;
+}
+
+.active {
+    color: rgb(0, 136, 255);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(0, 136, 255);
+    padding-bottom: 3px;
+}
+
+a {
+    font-size: 14px;
+}
